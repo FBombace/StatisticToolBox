@@ -35,11 +35,12 @@ User guide
 ----------
 Insert one or two (optional) data series into the corresponding input box; the data series numbers can be separated by a space ' ' or a comma ','.
 
-![enter image description here](https://lh3.googleusercontent.com/-LWE0tUnG3sw/Vm1Da0H6byI/AAAAAAAAJc8/pAi0wBi3Tpk/s0/02_input.png "Series_input.png")
+![data series input](https://lh3.googleusercontent.com/-LWE0tUnG3sw/Vm1Da0H6byI/AAAAAAAAJc8/pAi0wBi3Tpk/s0/02_input.png "Series_input.png")
 
 The quantile input have to be in a real range value of [0, ..., 1], using '.' just before the decimal part of number (example of input are 0.25, .4, 0.74, .56, etc).
 
-![enter image description here](https://lh3.googleusercontent.com/-m7BGYG3tTZE/Vm1Dvvc7goI/AAAAAAAAJdU/CVBGdQwooS8/s0/03_qinput.png "quantile_input.png")
+![quantile_input](https://lh3.googleusercontent.com/-m7BGYG3tTZE/Vm1Dvvc7goI/AAAAAAAAJdU/CVBGdQwooS8/s0/03_qinput.png "quantile_input.png")
+
 In case of wrong input the software will launch a error window that explain what is the invalid input.
 
 To calculate the covariance, linear regression and Pearson indices, the data series **must** have the same number of elements, otherwise they will not be calculated.
